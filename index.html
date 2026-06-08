@@ -204,6 +204,26 @@
       color: rgba(255,255,255,0.45);
       font-size: 13px;
     }
+
+    /* MOBILE FIX */
+    @media (max-width: 768px) {
+      nav {
+        flex-direction: column;
+        gap: 15px;
+        padding: 15px 20px;
+      }
+
+      .brand {
+        position: static;
+        left: auto;
+      }
+
+      nav .links {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 18px;
+      }
+    }
   </style>
 </head>
 
