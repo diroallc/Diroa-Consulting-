@@ -32,7 +32,6 @@
       line-height: 1.65;
     }
 
-    /* NAV (UPDATED ONLY FOR CENTERING MENU) */
     nav {
       display: flex;
       justify-content: center;
@@ -123,6 +122,16 @@
       border: 1px solid rgba(255,255,255,0.12);
       background: rgba(255,255,255,0.03);
       color: var(--text);
+      transition: all 0.25s ease;
+    }
+
+    .btn-secondary:hover {
+      border-color: #a855f7;
+      box-shadow:
+        0 0 12px rgba(168, 85, 247, 0.6),
+        0 0 24px rgba(168, 85, 247, 0.35),
+        0 0 40px rgba(168, 85, 247, 0.15);
+      transform: translateY(-2px);
     }
 
     section {
