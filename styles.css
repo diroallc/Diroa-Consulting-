@@ -41,12 +41,13 @@ nav {
 .brand {
   position: absolute;
   left: 40px;
+  font-family: 'Syncopate', sans-serif;
   font-weight: 700;
   letter-spacing: 2px;
   background: linear-gradient(90deg, var(--purple), var(--teal));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-decoration: none; /* Added for the home link */
+  text-decoration: none;
 }
 
 nav .links {
@@ -65,9 +66,8 @@ nav a:hover, nav a.active {
   color: var(--teal);
 }
 
-/* Page Content Wrappers */
 main {
-  flex: 1; /* Pushes footer to the bottom on short pages */
+  flex: 1;
 }
 
 header {
