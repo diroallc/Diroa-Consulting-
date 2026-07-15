@@ -4,7 +4,15 @@
   <title>Diroa Consulting | Home</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css"></head><body><!-- Integrated geometric shape visual as a seamless full-page background --><img src="Diroa Geometric shape on home page.png" alt="Geometric shape representing an idea coming to life" style="position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; object-fit: cover; object-position: center; z-index: -1; opacity: 0.4; pointer-events: none;" /><nav>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Added to ensure both buttons get the purple outline on hover */
+    .btn-primary:hover {
+      outline: 2px solid purple !important;
+      outline-offset: 2px; /* Optional: adds a little space between the button and the outline */
+    }
+  </style>
+</head><body><!-- Integrated geometric shape visual as a seamless full-page background --><img src="Diroa Geometric shape on home page.png" alt="Geometric shape representing an idea coming to life" style="position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; object-fit: cover; object-position: center; z-index: -1; opacity: 0.4; pointer-events: none;" /><nav>
   <a href="index.html" class="brand" style="font-family: 'Syncopate', sans-serif;">Diroa</a>
   <div class="links">
     <a href="index.html" class="active">Home</a>
@@ -18,7 +26,7 @@
     </p>
     <div class="cta">
       <a class="btn btn-primary" href="contact.html">Contact Us</a>
-      <a class="btn btn-secondary" href="services.html">View Services</a>
+      <a class="btn btn-primary" href="services.html">View Services</a>
     </div>
   </header>
 
