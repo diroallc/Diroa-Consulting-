@@ -115,13 +115,14 @@ header p {
 }
 
 .btn-primary {
-  background: linear-gradient(90deg, var(--purple), var(--teal));
-  color: #0b0b10;
-  box-shadow: 0 0 18px rgba(124, 58, 237, 0.35);
+  background: var(--purple);
+  color: rgb(14, 172, 164);
+  border: none;
 }
 
 .btn-primary:hover {
   transform: translateY(-2px);
+  box-shadow: 0 0 20px 5px purple, 0 0 40px purple;
 }
 
 .btn-secondary {
