@@ -115,9 +115,9 @@ header p {
 }
 
 .btn-primary {
-  background: var(--purple);
-  color: rgb(14, 172, 164);
-  border: none;
+  background: transparent;
+  color: var(--purple);
+  border: 1px solid white;
 }
 
 .btn-primary:hover {
